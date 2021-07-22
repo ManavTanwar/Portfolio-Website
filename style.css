@@ -1,0 +1,800 @@
+
+html{
+    scroll-behavior: smooth;
+}
+@media(min-width:768px){
+    .container-1{
+        margin-top:60px;
+        /* display:flex; */
+    }
+
+    .container1{
+        padding : 20px;
+        
+        margin-top:20px;
+    }
+  
+}
+
+  @keyframes example {
+    0%   {left:0px; top:0px;}
+    0%   {right:00px; top:0px;}
+    50%  {left:500px; top:0px;}
+    100%  {left:0px; top:0px;}
+  }
+
+  
+  section {
+    display: block;
+}
+#Corner {
+    background-color: skyblue;
+    display: flex;
+}
+#bout {
+    padding: 2rem;
+    min-height: 100vh;
+    background-color: #3ee8c4;
+    border-radius: 10rem 0 0 0;
+    text-align: center;
+}
+#eduimg{
+    width:50%;
+}
+
+.card {
+    width: 90%;
+    font-size: 1.4rem;
+    margin: 1.4rem;
+    margin-left: 0;
+    background-color: #55E6C1;
+    box-shadow: 0 19px 38px rgb(0 0 0 / 30%), 0 15px 12px rgb(0 0 0 / 22%);
+    padding: 1.4rem;
+    border-radius: 5rem;
+    text-shadow: 1px 1px #2c3a47;
+}
+#education{
+    display: flex;
+}
+#educont {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.card .education-type {
+    text-emphasis: emphas;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.card ul li span {
+    font-weight: 600;
+    float: right;
+}
+@media screen and (max-width: 1000px)
+#animating-text {
+    font-size: 1.4rem;
+}
+#animating-text::after {
+    content: '';
+    animation: changing-text 10s infinite;
+}
+#animating-text {
+    color: #FC427B;
+    font-size: 3rem;
+    animation: changing-width 10s infinite;
+}
+@keyframes changing-width{
+    0% {
+        transform: scale(0);
+    }
+    10% {
+        transform: scale(1.5);
+    }
+    20% {
+        transform: scale(0.2);
+    }
+    30% {
+        transform: scale(1.5);
+    }
+    40% {
+        transform: scale(0.2);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    60% {
+        transform: scale(0.2);
+    }
+    70% {
+        transform: scale(1.5);
+    }
+    80% {
+        transform: scale(0.2);
+    }
+    90% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(0.2);
+    }
+}
+.subskill{
+    margin-left:250px;
+    /* text-align:center; */
+    color:#FC427B;
+    /* color:#55E6C1; */
+}
+
+
+@keyframes tex{
+    0%{
+        width:0ch;
+    }
+    50%{
+        width:17ch;
+    }
+}
+
+@keyframes slide {
+    100%{
+      top: -360px;
+    }
+  }
+ 
+  @keyframes typing {
+    40%, 60%{
+      left: calc(100% + 30px);
+    }
+    100%{
+      left: 0;
+    }
+  }
+ 
+ .navbar{
+     height:70px;
+     width:100%;
+     overflow: hidden;
+     box-shadow: white;
+     position: fixed;
+    /* background-color:black; */
+    font-family: open sans,open sans regular,sans-serif;
+    display: flex;
+    /* justify-content: center; */
+    /* border-bottom:5px solid white; */
+ }
+ .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+.navbar ul{
+    font-family: open sans,open sans regular,sans-serif;
+    float:right;
+    list-style: none;
+    margin-left:690px;
+    text-decoration: none;
+   
+
+}
+ .list li{
+     display:inline-block;
+     line-height: 60px;
+     color:black;
+     font-size:18px;
+     /* text-transform: uppercase; */
+     text-decoration: none;
+     margin-right:60px;
+   
+ }
+ .navbar a{
+     border:1px solid transparent;
+     text-decoration: none;
+     color:white;
+     /* font-size: 5rem; */
+     font-size:30px;
+     /* display: flex;
+     justify-content: center; */
+     /* padding:1px 10px; */
+     border-radius:5px;
+     font-weight: 400;
+     font-style: oblique;
+     font-family: 'Sacramento', cursive;
+     /* font-family: 'Montserrat',sans-serif,Arial; */
+     /* font-family: 'Trebuchet MS', sans-serif; */
+     
+ }
+ .navbar a:hover{
+     /* border:2px solid white; */
+     /* border-radius:5px; */
+     transition:0.1s;
+     /* text-decoration: underline; */
+     border-bottom: 3px solid transparent;
+ }
+ .navbar a:hover {
+    border-bottom: 3px solid #4db2ec;
+  }
+
+ .temporary{
+     /* background-color: black; */
+     height:150vh;
+     
+ }
+ .temporary #animate{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    /* background:black;  */
+    border-radius: 50px;
+    /* border:10px solid #01fe87; */
+    text-decoration: none;
+}
+.temporary .wrapper{
+   
+    margin-top:200px;
+    display:flex;
+    /* background-color: black; */
+    /* background-color: #252839; */
+}
+.temporary .wrapper .dynamic-txts{
+    margin-left: 60px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+.temporary .dynamic-txts li { 
+    font-family: 'Sacramento', cursive;
+    font-style: oblique;
+    list-style: none;
+    color: white;
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+
+}
+.temporary .dynamic-txts li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    /* background:black; */
+    border-left: 6px solid yellow;
+    animation: typing 3s steps(10) infinite;
+  }
+
+  #belownav{
+      background-color:yellow;
+      height: 10px;
+      width:100%;
+  }
+
+  .navimage{
+    margin-left:30px;
+    height: 60px;
+    width: 70px;
+  }
+ #myImage{
+     height: 500px;
+     border-radius: 15px;
+     margin-left:500px;
+     margin-top:70px;
+      /* border:3px solid white;  */
+ }
+ #myImage:hover{
+    transform : translateY(-20px);
+    box-shadow: 0 40px 70px rgba(0,0,0,0.5);
+ }
+ #round{
+     margin-left:5px;
+     height:100px;
+ }
+ /* .temporary{
+     background-image: url('https://1.bp.blogspot.com/-TtqqpYhhkpE/VlstEHJvPWI/AAAAAAAAHa4/HK_VVcFBSAQ/s1600/Programmer-Developer-Wallpaper.jpg');
+ } */
+ .bg-img{
+    background-image: url('https://wallpaperaccess.com/full/1236480.jpg');
+    
+    width: 100%;
+    /* background-image: url('https://thumbs.dreamstime.com/b/keyboard-mouse-two-tone-pastel-background-minimalist-des-110733712.jpg');
+    */
+    /* background-image: url('https://prntexas.org/wp-content/uploads/2017/10/pinkkeyboard.jpg'); */
+   
+    /* min-height: 700px; */
+  height:100vh;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.FirstContainer {
+    position: absolute;
+    margin: 20px;
+    width: 100%;
+  }
+  
+  .skillsContainer{
+      /* background-color:white; */
+      /* background-image: url('https://www.multyde.com/wp-content/uploads/2015/01/skills-background.jpg'); */
+      /* background-image: url('https://images.squarespace-cdn.com/content/v1/53541e7ce4b05a88e5fedeae/1403688124663-8250OMJFP86IWZNGXJZO/ke17ZwdGBToddI8pDm48kJEotWXM9YsLrr4WkXx3zad7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UUQKxqVzXKDRjKO2c-4vX0lB_tvqxhbSRC5tr5vrxehF_RvfoQ25ZlgT83SK2RCHFg/unsplash_52a088bb6fb98_1.JPG?format=2500w'); */
+      background-image: url(https://images.pexels.com/photos/2035416/pexels-photo-2035416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+      /* background-color:white;  */
+      background-attachment: fixed !important;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      height:1600px;
+  }
+
+.contact{
+    background-color: #ececec;
+    height:90vh;
+}
+.txtCenter{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top:33px;
+    font-family: 'Ubuntu',sans-serif;
+}
+.form{
+    /* width:344px; */
+    margin:42px auto;
+    max-width: 500px;;
+}
+  /* .contactContainer{
+    background-color: #f6f5f4;
+    height:1000px;
+  } */
+.form input {
+    width:100%;
+    font-size:18px;
+    border:2px solid grey;
+    border-radius: 5px;
+    margin:14px 0px;
+    padding:5px 3px;
+}
+.btn-dark
+{
+    /* color:black; */
+    /* border:2px solid black; */
+}
+.navimage{
+    border-radius: 5px;
+}
+#heart{
+    height:40px;
+    width:60px;
+    float:right;
+    margin-top:-5px;
+    
+}
+#last-line{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: 'Sacramento', cursive;
+    border-bottom:1px solid #e5e7eb;
+
+}
+
+#coffee{
+    height:30px;
+    margin-top:-5px;
+    width:40px;
+}
+
+#Myimage{
+    top:200px;
+    left:560px;
+    height:300px; 
+    width:300px;
+    position: absolute;
+    border: 10px solid rgba(255, 255, 255, .5);
+    /* border:20px solid grey; */
+    box-shadow: inset 0 0 0 0 rgb(200 95 66 / 40%), inset 0 0 0 16px rgb(255 255 255 / 60%), 0 1px 2px rgb(0 0 0 / 10%);
+    border-radius: 50%;
+    /* border-radius: 50%; */
+}
+
+.cropped{
+    width: 250px; /* width of container */
+    height: 300px; /* height of container */
+    /* overflow: hidden; */
+    /* border: 5px solid black; */
+    text-align: center;
+    justify-content: center;
+    border-radius: 850px;
+   
+}
+
+.ff{
+    display: flex;
+    position: relative;
+    /* background-image: url('https://qdcommunications.in/img/bg3.jpg'); */
+    background-image: url('https://wallpaperaccess.com/full/257005.jpg');
+    /* background-color: #313134;*/
+    height:900px; 
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed !important;
+    /* color: black; */
+    /* justify-content: center; */
+}
+.CursiveFont{
+    font-family:  'Sacramento', cursive;
+    font-size: 5rem;
+}
+.info{
+    margin-left:520px;
+    margin-top:550px;
+    text-align: center;
+}
+.info h1{
+    color:white;
+    font-family: Pacifico;
+    font-size: 60px;
+}
+.info h2{
+    font-size:20px;
+    color:white;
+    font-family: 'Montserrat',sans-serif,Arial;
+}
+#college{
+    /* padding-left:100px; */
+}
+.go-to-section {
+    height:50px;
+    width:30px;
+    border:2px solid white;
+    position : absolute;
+    left:50%;
+    bottom:50px;
+    top: 750px;
+    border-radius: 50px;
+    cursor: pointer;
+    -moz-animation: bounce 1s infinite linear;
+    -webkit-animation: bounce 1s infinite linear;
+    -o-animation: bounce 1s infinite linear;
+}
+.go-to-section::before,
+.go-to-section::after{
+    content: '';
+    position: absolute;
+    top:20%;
+    left:50%;
+    border:2px solid white;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%,-50%) rotate(45deg);
+    border-top:transparent;
+    border-left: transparent;
+
+}
+.go-to-section::after{
+    top:40%;
+}
+.quoteContainer{
+ background-image: url('https://cdn.wallpapersafari.com/7/80/gCWHKN.gif');
+ height:400px;
+ background-attachment: fixed !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+ 
+}
+.replica{
+    height:400px;
+    background-color: rgba(0,0,0,0.50);
+    text-align: center;
+    padding-top:200px;
+}
+.replica1{
+    height:900px;
+    background-color: rgba(0,0,0,0.50);
+    background-size: cover;
+    width: 2000px;
+    text-align: center;
+    display: flex;
+    /* padding-top:200px; */
+}
+#einstein h1{
+    padding-left:30px;
+    padding-right:30px;
+    /* margin-top:100px; */
+    font-family: 'Montserrat',sans-serif,Arial;
+    color:white;
+    font-size:20px;
+
+}
+#einstein h2{
+    /* margin-top:100px; */
+    padding-top:50px;
+    color:white;
+    font-size:25px;
+
+}
+.borders{
+    background: none repeat scroll 0 0 #2B88A3;
+    display: block;
+    height: 10px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    width:100px;
+    max-width: 450px;
+
+    display: inline-block;
+    /* float:left;  remove */
+    margin: 10px 10px 0 0;
+    padding: 5px 10px
+    /* margin-left: 50px; */
+}
+.sectionTitle h1{
+    /* text-transform: uppercase; */
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: -5px;
+    line-height: 50px;
+
+    /* font-family: 'Acme', sans-serif; */
+    font-family: 'Fredoka One', cursive;
+    /* font-family: 'Montserrat',sans-serif,Arial; */
+    padding-bottom: 5px;
+    color: black;
+    line-height: 1em;
+    font-weight: normal;
+   
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sectionTitle{
+    padding-left:550px;
+    padding-top:50px;
+}
+
+.Lang-column {
+    /* text-align: center; */
+    max-height: 4px;
+    /* overflow: hidden; */
+    transition: all 1.5s ease;
+  }
+  
+  .Lang-column.expand {
+    max-height: 1000px;
+  }
+  .Lang-column h2{
+      font-size: 3rem;
+      color:white;
+  }
+
+#languages{
+    margin-left:100px;
+    margin-top:100px;
+    width: 200px;
+    height:350px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+#languages h1{
+    color:black;
+    
+    font-weight: 200px;
+    font-size:2rem; 
+    font-family: 'Montserrat',sans-serif,Arial;
+}
+.content{
+    /* border:2px solid white; */
+    border-radius: 5px;
+}
+.content h1{
+    color: black;
+}
+#js{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.langbtn{
+    background-color: grey;
+    border-radius: 3px;
+    color: white;
+}
+.languages{
+    text-align: center;
+}
+button{
+    margin-left:40%;
+}
+.langbtn img{
+    height:30px;
+
+}
+.temp{
+  /* background-color: white;
+  height:1400px; */
+  /* display:flex; */
+}
+#Tools{
+    margin-left:130px;
+    margin-top:100px;
+    width: 200px;
+    padding-top:30px;
+    height:350px;
+    text-align: center;
+    justify-content: center;
+
+}
+#Tools h1{
+    color:black;
+    font-size:2rem; 
+    font-family: 'Montserrat',sans-serif,Arial;
+}
+.seconddiv{
+   
+    margin-left:130px;
+    margin-top:100px;
+    width: 400px;
+    padding-top:30px;
+    /* height:700px; */
+    text-align: center;
+    justify-content: center;
+
+}
+#CCore{
+    margin-left:130px;
+    margin-top:100px;
+
+}
+#CCore h1{
+    color:black;
+    font-size:2rem; 
+    font-family: 'Montserrat',sans-serif,Arial;
+}
+#CSCore{
+    /* margin-left:500px;
+    margin-top:100px; */
+    /* text-align: center; */
+
+    height:300px;
+    text-align: center;
+    justify-content: center;
+
+}
+.seconddiv h1{
+    color:black;
+    font-size:2rem; 
+    font-family: 'Montserrat',sans-serif,Arial;
+}
+.firstone{
+    display:flex;
+    margin-left:120px;
+}
+
+#cp h1{
+        color:black;
+        font-size:2rem; 
+        font-family: 'Montserrat',sans-serif,Arial;
+}
+#cp{
+    margin-left:200px;
+    margin-top:150px;
+
+    height:500px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-left:30px;
+}
+#ccimg{
+    height:100px;
+    width:100px;
+    border-radius:50px;
+    border:5px solid black;
+}
+.codechef{
+    display: flex;
+
+}
+.codechef h1{
+    margin-top:20px;
+    
+}
+#cfimg{
+    height:100px;
+    width:100px;
+    border-radius:50px;
+    border:5px solid black;
+}
+.codeforces{
+    display: flex;
+
+}
+.codforces h1{
+    margin-top:20px;
+    font-size: 2rem;
+    
+}
+#hckimg{
+    height:100px;
+    width:100px;
+    border-radius:50px;
+    border:5px solid white;
+}
+.hackerrank{
+    display: flex;
+
+}
+.hackerrank h1{
+    margin-top:20px;
+    
+}
+.x{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.bg-gray-300 {
+    /* --bg-opacity: 1; */
+    
+    max-height: 800px;
+     height:300px; 
+    background-color: #e2e8f0;
+    background-color: rgba(226,232,240,var(--bg-opacity));
+    --bg-opacity: 0.75;
+    border-radius: 1rem;
+    /* align-items: center;
+    justify-content: center;
+    text-align: center; */
+    /* margin-top:30px; */
+    /* padding-top: 30px; */
+    max-width: 800px;
+
+}
+
+#eduContainer{
+    /* background-image: url('http://www.aurora-institute.org/wp-content/uploads/2019/10/fit-for-purpose-blog-4-photo-redefining-student-success.jpg'); */
+    background-image: url('https://img.freepik.com/free-photo/mortar-board-graduation-diploma_53876-47088.jpg?size=626&ext=jpg');
+   
+   
+    height:800px;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed !important;
+    
+}
+
+.grad{
+    background-image: url('b2.png');
+    height:144px;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* background-attachment: fixed !important; */
+}
+.rep{
+        height:144px;
+        background-color: rgba(0,0,0,0.50);
+        text-align: center;
+}
+.educationContent{
+    padding-left: 100px;
+    font-size: 30px;
+}
